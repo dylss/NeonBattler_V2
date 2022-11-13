@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee1fef43bae141e2bc7fe9a4cd23bd42, type: 3}
+  m_Name: Vehicle
+  m_EditorClassIdentifier: 
+  bodyTypes:
+  - {fileID: 11400000, guid: 1f17c1a7fae3ae84fadc9ed2da4134fa, type: 2}
+  - {fileID: 11400000, guid: 40d6a87841157f24497d5296b133bb51, type: 2}
+  - {fileID: 11400000, guid: fffea1b92d02f70489ec464de745dd16, type: 2}
+  barrelTypes:
+  - {fileID: 11400000, guid: 88faa65acd2811d4aaa0c458c8232148, type: 2}
+  - {fileID: 11400000, guid: 4517ba18dbc80da47893d38e681b1789, type: 2}
+  - {fileID: 11400000, guid: d3972706be89e5e4fa1d10dc28374e4a, type: 2}
+  - {fileID: 11400000, guid: ce895a0b9a033d948814df4c5430d89d, type: 2}
+  - {fileID: 11400000, guid: b09baa6e0fd08b54eba5963ac07a4536, type: 2}
+  projectileTypes:
+  - {fileID: 11400000, guid: 7c6f063c7ddb69344b49ab9329712349, type: 2}
+  - {fileID: 11400000, guid: a5d3d747faa86cd4885234f719795a2f, type: 2}
+  - {fileID: 11400000, guid: 49aef8cd64bfb3e4eabf629b2c87b078, type: 2}
+  - {fileID: 11400000, guid: 22490286983b4684f81607af0bb940f5, type: 2}
+  battleObjectModel:
+    maxHealth: 0
+    armor: 0
+    armorResistanceMultiplier: 0
+    directDamage: 0
+    indirectDamage: 0
+    indirectDamageDistanceFallOfMultiplier: 0
+    indirectDamageRange: 0
+    maxVel: 0
+    acc: 0
+    targetFollowing: 0
+    maxLinearVel: 0
+    maxRotVel: 0
+    muzzleVel: 0
+    bodyModel:
+      bodyType: {fileID: 0}
+      maxLinearVel: 0
+      maxRotVel: 0
+      vecPosAccuracy: 1
+    projectileModel:
+      projectileType: {fileID: 0}
+      damage: 0
+    barrelModel:
+      muzzleVel: 0

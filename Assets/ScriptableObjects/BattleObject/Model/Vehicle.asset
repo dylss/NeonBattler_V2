@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736b9d18669a4f5c8fe46b60c8e2ae79, type: 3}
+  m_Name: Vehicle
+  m_EditorClassIdentifier: 
+  battleObjectModel:
+    maxHealth: 34
+    armor: 0
+    armorResistanceMultiplier: 0
+    directDamage: 0
+    indirectDamage: 0
+    indirectDamageDistanceFallOfMultiplier: 0
+    indirectDamageRange: 0
+    dps: 0
+    maxVel: 41
+    accuracy: 512
+    targetFollowing: 0
+    maxLinearVel: 34
+    maxRotVelBody: 0
+    range: 323
+    fireRate: 52
+    maxRotVelMount: 0
+    targetingAccuracy: 20.4
+    muzzleVel: 4.7
+  body: {fileID: 11400000, guid: 306a7ef1c8f0dac41b606681cf3d1e53, type: 2}
+  mount: {fileID: 0}
+  projectile: {fileID: 11400000, guid: abcf4a5d6bd92514780b4e5e2dbde64b, type: 2}
+  effects:
+  - {fileID: 11400000, guid: 7b9862a514e88ca4b9b044f6367e42ac, type: 2}

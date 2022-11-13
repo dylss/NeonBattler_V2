@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1337673611960487616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5215490290655841576}
+  - component: {fileID: -8839278796224096106}
+  - component: {fileID: -1880319794905603313}
+  - component: {fileID: -8089981437603305091}
+  m_Layer: 0
+  m_Name: BattleObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5215490290655841576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337673611960487616}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-8839278796224096106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337673611960487616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caa122aa177e4f9ba5943647f1fce19d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boState: 0
+  battleObjectType: 0
+  barrelType: 0
+  projectileType: 0
+  initialHex: {fileID: 0}
+  boRuntimeSet: {fileID: 0}
+  boDataDev: {fileID: 0}
+--- !u!114 &-1880319794905603313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337673611960487616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd675aa2f6235904f948fb352ee628f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _mountBaseStats: {fileID: 0}
+  _boBaseStats: {fileID: 0}
+  _projectileBaseStats: {fileID: 0}
+  _mountUpgradesList: []
+  _boUpgradesList: []
+  _projectileUpgradesList: []
+  strategicBehaviour: 0
+  player: 0
+  projectileCurveType: 0
+  battleObjectType: 0
+  barrelType: 0
+  projectileType: 0
+  baseSkin: 0
+  mountSkin: 0
+  projectileSkin: 0
+  damageType: 0
+  boName: 
+  spawnHexIndex: 0
+  price: 0
+  ownPriority: 0
+  health: 0
+  shieldHealth: 0
+  range: 0
+  fireRate: 0
+  baseLinearVel: 0
+  baseRotationalVel: 0
+  vectorPositionAccuracy: 0
+  mountRotVel: 0
+  barrelRotVel: 0
+  targetingAccuracy: 0
+  directDamage: 0
+  indirectDamageMultiplier: 0
+  totalDamageTaken: 0
+  totalDamageDone: 0
+--- !u!114 &-8089981437603305091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337673611960487616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c55487eff94840299567d92ae7e9f371, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: 
